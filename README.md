@@ -33,6 +33,7 @@ for an image to use, I don't agree with how the images are made. E.g.:
 - needlessly install from source
 	* There is nothing wrong with that except the `Dockerfile` is harder to maintain than just
 	  installing from an OS's package manager.
+- run as non-root (if possible)
 
 If you look at how little complexity the [average Dockerfile](nmap/) has, often it's just faster
 maintaining my own Dockerfile for each program than researching a 3rd party one meeting the quality
