@@ -2,19 +2,19 @@
 Like [jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles) but for software I use.
 
 These also somewhat complement [my OS installation](https://github.com/joonas-fi/joonas-sys/)
-("my app store") - most of these are aliased from my `~/.bash_aliases`.
+(my "app store") - most of these are aliased from my `~/.bash_aliases`.
 
 
-Rules for these images In a nutshell
+Rules for these images in a nutshell
 ------------------------------------
 
-- `<dir>/` => Docker tag `joonas/<dir>`, i.e. image built from [nmap/](nmap/) available as Docker tag `joonas/nmap`
-- `FROM alpine:latest` & `apk add <program>` for all programs where possible
+- `<dir>/` => Docker tag `joonas/<dir>`, i.e. image built from [nmap/](nmap/) is tagged
+  [joonas/nmap](https://hub.docker.com/r/joonas/nmap)
+- `FROM alpine:latest`, `RUN apk add --no-cache <program>` for all programs where possible
 - Minimal images, e.g. don't ship build environment
 - Unless the program is exotic, the image has entrypoint defined, so invoking
   `$ docker run joonas/nmap <args>` is the same as running `nmap <args>` inside the container.
-  	* Example of "exotic" is imagemagick, which doesn't have entrypoint because it has multiple
-  	  entrypoints (convert, animate, compare, display etc.)
+  	* Example of "exotic" is imagemagick because it has multiple entrypoints (convert, animate, display etc.)
 - Most of the images' `WORKDIR` has been standardized to `/workspace`. This is so that if the program
   reads or writes files, you can map host filesystem's current dir (or something else) to there.
   	* You can use `alias exiftool="docker run --rm -v \"$(pwd):/workspace\" joonas/exiftool"` and
@@ -34,9 +34,9 @@ for an image to use, I don't agree with how the images are made. E.g.:
 	* There is nothing wrong with that except the `Dockerfile` is harder to maintain than just
 	  installing from an OS's package manager.
 
-If you look at how small the complexity of an [average Dockerfile](nmap/) is, often it's just faster
-maintaining my own Dockerfile for each program than researching a 3rd party one that I'm happy with
-and that keeps their images updated.
+If you look at how little complexity the [average Dockerfile](nmap/) has, often it's just faster
+maintaining my own Dockerfile for each program than researching a 3rd party one meeting the quality
+AND that keeps their images updated.
 
 
 Inspiration
