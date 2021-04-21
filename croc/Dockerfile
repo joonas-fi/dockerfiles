@@ -8,7 +8,7 @@ ENTRYPOINT ["/usr/bin/croc"]
 # that it would point in actual home directory (which we'd have to create also)
 RUN mkdir /tmp/install \
 	&& cd /tmp/install \
-	&& wget https://github.com/schollz/croc/releases/download/v8.6.12/croc_8.6.12_Linux-64bit.tar.gz \
+	&& wget https://function61.com/app-dl/api/github.com/schollz/croc/latest_releases_asset/croc_%2A_Linux-64bit.tar.gz \
 	&& tar -xzf *.tar.gz \
 	&& mv croc /usr/bin/ \
 	&& rm -rf /tmp/install \
