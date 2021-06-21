@@ -1,0 +1,25 @@
+{
+	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
+	"version_major": 1,
+	"project_name": "dockerfiles",
+	"builders": [],
+	"docker_images": [
+		{ "image": "joonas/croc", "dockerfile_path": "croc/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/dig", "dockerfile_path": "dig/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/exiftool", "dockerfile_path": "exiftool/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/fdisk", "dockerfile_path": "fdisk/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/file", "dockerfile_path": "file/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/htop", "dockerfile_path": "htop/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/imagemagick", "dockerfile_path": "imagemagick/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/iotop", "dockerfile_path": "iotop/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/lspci", "dockerfile_path": "lspci/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/ncdu", "dockerfile_path": "ncdu/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/nethogs", "dockerfile_path": "nethogs/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/nmap", "dockerfile_path": "nmap/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/psmisc", "dockerfile_path": "psmisc/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/radeontop", "dockerfile_path": "radeontop/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/rsync", "dockerfile_path": "rsync/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/smartmontools", "dockerfile_path": "smartmontools/Dockerfile", "auth_type": "creds_from_env" },
+		{ "image": "joonas/stress-ng", "dockerfile_path": "stress-ng/Dockerfile", "auth_type": "creds_from_env" }
+	]
+}
