@@ -27,6 +27,7 @@
 		{ "tag_latest": true, "image": "joonas/radeontop", "dockerfile_path": "radeontop/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/rsync", "dockerfile_path": "rsync/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/smartmontools", "dockerfile_path": "smartmontools/Dockerfile" },
+		{ "tag_latest": true, "image": "joonas/sqlite", "dockerfile_path": "sqlite/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/stress-ng", "dockerfile_path": "stress-ng/Dockerfile" }
 	]
 }
