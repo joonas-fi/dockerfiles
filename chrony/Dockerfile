@@ -1,5 +1,8 @@
 FROM alpine:latest
 
+HEALTHCHECK --interval=30s --timeout=3s \
+  CMD chronyc tracking > /dev/null
+
 # example configs:
 # "--env=CHRONY_CONF=refclock PHC /dev/ptp0 poll 3 dpoll -2"
 # "--env=CHRONY_CONF=server 192.168.200.100 iburst minpoll 2 maxpoll 2 xleave\ndriftfile /var/lib/chrony/drift\nmakestep 0.1 3"
