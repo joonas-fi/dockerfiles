@@ -23,6 +23,7 @@
 		{ "tag_latest": true, "image": "joonas/nethogs", "dockerfile_path": "nethogs/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/nmap", "dockerfile_path": "nmap/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/psmisc", "dockerfile_path": "psmisc/Dockerfile" },
+		{ "tag_latest": true, "image": "joonas/qemu", "dockerfile_path": "qemu/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/qrencode", "dockerfile_path": "qrencode/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/radeontop", "dockerfile_path": "radeontop/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/rsync", "dockerfile_path": "rsync/Dockerfile" },
