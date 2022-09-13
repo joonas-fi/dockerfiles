@@ -4,6 +4,7 @@
 	"project_name": "dockerfiles",
 	"builders": [],
 	"docker_images": [
+		{ "tag_latest": true, "image": "joonas/asciiquarium", "dockerfile_path": "asciiquarium/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/chrony", "dockerfile_path": "chrony/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/croc", "dockerfile_path": "croc/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/dig", "dockerfile_path": "dig/Dockerfile" },
