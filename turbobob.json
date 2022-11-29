@@ -10,6 +10,7 @@
 		{ "tag_latest": true, "image": "joonas/cowsay", "dockerfile_path": "cowsay/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/croc", "dockerfile_path": "croc/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/dig", "dockerfile_path": "dig/Dockerfile" },
+		{ "tag_latest": true, "image": "joonas/doge", "dockerfile_path": "doge/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/exiftool", "dockerfile_path": "exiftool/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/fdisk", "dockerfile_path": "fdisk/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/figlet", "dockerfile_path": "figlet/Dockerfile" },
