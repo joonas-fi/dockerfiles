@@ -38,6 +38,7 @@
 		{ "tag_latest": true, "image": "joonas/stress-ng", "dockerfile_path": "stress-ng/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/telnet", "dockerfile_path": "telnet/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/tokei", "dockerfile_path": "tokei/Dockerfile" },
-		{ "tag_latest": true, "image": "joonas/uuidgen", "dockerfile_path": "uuidgen/Dockerfile" }
+		{ "tag_latest": true, "image": "joonas/uuidgen", "dockerfile_path": "uuidgen/Dockerfile" },
+		{ "tag_latest": true, "image": "joonas/yulelog", "dockerfile_path": "yulelog/Dockerfile" }
 	]
 }
