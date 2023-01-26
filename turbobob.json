@@ -36,7 +36,8 @@
 		{ "tag_latest": true, "image": "joonas/smartmontools", "dockerfile_path": "smartmontools/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/sqlite", "dockerfile_path": "sqlite/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/stress-ng", "dockerfile_path": "stress-ng/Dockerfile" },
+		{ "tag_latest": true, "image": "joonas/telnet", "dockerfile_path": "telnet/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/tokei", "dockerfile_path": "tokei/Dockerfile" },
-		{ "tag_latest": true, "image": "joonas/telnet", "dockerfile_path": "telnet/Dockerfile" }
+		{ "tag_latest": true, "image": "joonas/uuidgen", "dockerfile_path": "uuidgen/Dockerfile" }
 	]
 }
