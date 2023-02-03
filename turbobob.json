@@ -24,6 +24,7 @@
 		{ "tag_latest": true, "image": "joonas/lshw", "dockerfile_path": "lshw/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/lspci", "dockerfile_path": "lspci/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/lsusb", "dockerfile_path": "lsusb/Dockerfile" },
+		{ "tag_latest": true, "image": "joonas/natscli", "dockerfile_path": "natscli/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/ncdu", "dockerfile_path": "ncdu/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/neofetch", "dockerfile_path": "neofetch/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/nethogs", "dockerfile_path": "nethogs/Dockerfile" },
