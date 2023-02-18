@@ -22,6 +22,7 @@
 		{ "tag_latest": true, "image": "joonas/imagemagick", "dockerfile_path": "imagemagick/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/iotop", "dockerfile_path": "iotop/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/iperf", "dockerfile_path": "iperf/Dockerfile" },
+		{ "tag_latest": true, "image": "joonas/lolcat", "dockerfile_path": "lolcat/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/lshw", "dockerfile_path": "lshw/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/lspci", "dockerfile_path": "lspci/Dockerfile" },
 		{ "tag_latest": true, "image": "joonas/lsusb", "dockerfile_path": "lsusb/Dockerfile" },
